@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "airbank api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "prisma": {
+    "seed": "ts-node seed.ts"
+  },
+  "author": {
+    "name": "Gabriel Alegrete",
+    "email": "gabrielalegrete1@gmail.com",
+    "url": "https://github.com/gabrielalegrete"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "3.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.2",
+    "prisma": "3.6.0",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
